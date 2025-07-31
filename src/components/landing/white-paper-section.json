@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_landing_white_paper_sections",
+  "info": {
+    "displayName": "White Paper Section",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Heading": {
+      "type": "string"
+    },
+    "Anchor": {
+      "type": "string"
+    },
+    "Content": {
+      "type": "customField",
+      "options": {
+        "preset": "defaultHtml"
+      },
+      "customField": "plugin::ckeditor5.CKEditor"
+    }
+  }
+}

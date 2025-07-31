@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_landing_table_of_contents",
+  "info": {
+    "displayName": "Table of Contents"
+  },
+  "options": {},
+  "attributes": {
+    "Label": {
+      "type": "string"
+    },
+    "Anchor": {
+      "type": "string"
+    }
+  }
+}

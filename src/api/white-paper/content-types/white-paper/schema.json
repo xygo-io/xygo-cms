@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "white_papers",
+  "info": {
+    "singularName": "white-paper",
+    "pluralName": "white-papers",
+    "displayName": "White Paper",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "sections": {
+      "type": "component",
+      "repeatable": true,
+      "component": "landing.white-paper-section"
+    },
+    "table_of_contents": {
+      "type": "component",
+      "repeatable": true,
+      "component": "landing.table-of-contents"
+    }
+  }
+}
