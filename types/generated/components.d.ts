@@ -92,6 +92,22 @@ export interface SharedSlider extends Struct.ComponentSchema {
   };
 }
 
+export interface SharedWysiwyg extends Struct.ComponentSchema {
+  collectionName: 'components_shared_wysiwygs';
+  info: {
+    displayName: 'WYSIWYG';
+  };
+  attributes: {
+    wysiwyg: Schema.Attribute.RichText &
+      Schema.Attribute.CustomField<
+        'plugin::ckeditor5.CKEditor',
+        {
+          preset: 'defaultHtml';
+        }
+      >;
+  };
+}
+
 declare module '@strapi/strapi' {
   export module Public {
     export interface ComponentSchemas {
@@ -102,6 +118,7 @@ declare module '@strapi/strapi' {
       'shared.rich-text': SharedRichText;
       'shared.seo': SharedSeo;
       'shared.slider': SharedSlider;
+      'shared.wysiwyg': SharedWysiwyg;
     }
   }
 }

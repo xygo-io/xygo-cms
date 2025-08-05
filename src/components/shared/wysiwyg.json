@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_shared_wysiwygs",
+  "info": {
+    "displayName": "WYSIWYG"
+  },
+  "options": {},
+  "attributes": {
+    "wysiwyg": {
+      "type": "customField",
+      "options": {
+        "preset": "defaultHtml"
+      },
+      "customField": "plugin::ckeditor5.CKEditor"
+    }
+  }
+}
