@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "user_agreements",
+  "info": {
+    "singularName": "user-agreement",
+    "pluralName": "user-agreements",
+    "displayName": "User Agreement"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Content": {
+      "type": "customField",
+      "options": {
+        "preset": "defaultHtml"
+      },
+      "customField": "plugin::ckeditor5.CKEditor"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "aml_kyc_policies",
+  "info": {
+    "singularName": "aml-kyc-policy",
+    "pluralName": "aml-kyc-policies",
+    "displayName": "AML/KYC Policy"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Content": {
+      "type": "customField",
+      "options": {
+        "preset": "defaultHtml"
+      },
+      "customField": "plugin::ckeditor5.CKEditor"
+    }
+  }
+}
